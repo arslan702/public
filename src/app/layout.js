@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Head from "next/head";
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 
@@ -22,6 +23,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+      <meta name="linkweave-verification" content="d5ce81c532a6b3e2956a7362cc078995d8923dd917962eb55ee00a579d4035b5"/>
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
