@@ -59,7 +59,7 @@ export default function Hero() {
         </div>
       </div>
       <p className="mt-4 text-gray-500 text-sm">
-        See <a href="https://public.com/disclosures" className="text-blue-600 underline">public.com/disclosures</a> for more info.
+        See <a href="https://www.publictrade.net/disclosures" className="text-blue-600 underline">publictrade.net/disclosures</a> for more info.
       </p>
     </section>
     </div>

@@ -99,7 +99,7 @@ export default function HomePage() {
     },
     {
       title: "Contact Us",
-      items: ["Help", "FAQ", "support@public.com", "press@public.com"],
+      items: ["Help", "FAQ", "info@publictrade.net"],
     },
   ];
 
