@@ -26,12 +26,12 @@ export default function Hero() {
       </div>
       
       {/* Right Content - CTA Button */}
-      <div className="mt-10 lg:mt-0">
+      {/* <div className="mt-10 lg:mt-0">
         <button className="flex items-center space-x-2 px-6 py-3 text-white bg-blue-600 rounded-full text-lg font-medium shadow-md hover:bg-blue-700">
           <span>Get Started</span>
           <span>↗</span>
         </button>
-      </div>
+      </div> */}
     </section>
     
     <video 

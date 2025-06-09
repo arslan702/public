@@ -14,7 +14,7 @@ export default function FundAccountSection() {
       </h3>
 
       {/* Sign-Up Button */}
-      <button
+      {/* <button
         className="mt-6 px-14 py-3 text-lg text-white rounded-full shadow-xl 
                         bg-gradient-to-b from-[#0050ff] to-[#002db3] 
                         hover:from-[#003fcc] hover:to-[#001f80] 
@@ -23,7 +23,7 @@ export default function FundAccountSection() {
                         before:shadow-[0px_0px_20px_2px_rgba(0,80,255,0.6)]"
       >
         Sign up
-      </button>
+      </button> */}
 
       {/* Image Section */}
       <div className="relative flex justify-center w-full mt-20">

@@ -48,10 +48,10 @@ export default function Navbar() {
     </ul>
     
     {/* Auth Buttons */}
-    <div className="flex space-x-4">
+    {/* <div className="flex space-x-4">
       <button className="px-4 py-2 text-sm font-medium text-gray-700 border border-gray-300 rounded-md hover:bg-gray-100">Sign In</button>
       <button className="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700">Get Started</button>
-    </div>
+    </div> */}
   </nav>
   );
 }

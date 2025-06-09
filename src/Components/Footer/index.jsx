@@ -9,7 +9,7 @@ import img from "../../Images/16.webp"; // Ensure correct path
 const Footer = ({ menuItems }) => {
   return (
     <div className="bg-white text-black py-12 px-6 md:px-20">
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-10 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 max-w-7xl mx-auto">
         {menuItems.map((section, index) => (
           <div key={index}>
             <h3 className="font-semibold text-[14px] ">{section.title}</h3>
@@ -24,7 +24,7 @@ const Footer = ({ menuItems }) => {
         ))}
 
         {/* Social & Branding */}
-        <div>
+        {/* <div>
           <Image src={logo} alt="Public Logo" width={100} height={30} />
           <p className="text-xs text-gray-500 mt-2">
             Check the background of this firm on{" "}
@@ -33,8 +33,6 @@ const Footer = ({ menuItems }) => {
           <p className="text-xs text-blue-500 mt-2">
             Open to the Public Investing, Inc. <br /> Customer Relationship Summary.
           </p>
-
-          {/* Social Icons */}
           <div className="flex items-center gap-4 mt-4">
             <RxCross2 className="text-xl text-gray-600 cursor-pointer" />
             <FaInstagram className="text-xl text-gray-600 cursor-pointer" />
@@ -42,7 +40,7 @@ const Footer = ({ menuItems }) => {
             <FaLinkedin className="text-xl text-gray-600 cursor-pointer" />
             <FaTiktok className="text-xl text-gray-600 cursor-pointer" />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -63,7 +63,7 @@ export default function AccountBenefits() {
       </div>
 
       {/* Sign Up Button */}
-      <div className="mt-12">
+      {/* <div className="mt-12">
         <button
           className="mt-6 px-14 py-3 text-lg text-white rounded-full shadow-xl 
                         bg-gradient-to-b from-[#0050ff] to-[#002db3] 
@@ -74,7 +74,7 @@ export default function AccountBenefits() {
         >
           Sign up
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }
