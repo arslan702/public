@@ -15,7 +15,7 @@ const Footer = ({ menuItems }) => {
             <h3 className="font-semibold text-[14px] ">{section.title}</h3>
             <ul className="mt-2 space-y-2 text-gray-600 text-[12px] ">
               {section.items.map((item, idx) => (
-                <li key={idx} className="hover:text-[#2958E4] cursor-pointer">
+                <li key={idx} className="hover:text-[#7c3aed] cursor-pointer">
                   {item}
                 </li>
               ))}
@@ -59,7 +59,7 @@ const FundAccountSection = () => {
       </h3>
 
       {/* Sign-Up Button */}
-      <button className="mt-6 px-6 py-3 bg-blue-600 text-white text-lg rounded-full shadow-lg transition duration-300 hover:bg-blue-500">
+      <button className="mt-6 px-6 py-3 bg-blue-600 text-white text-lg rounded-full shadow-lg transition duration-300 hover:bg-[#7C3AED]">
         Sign up
       </button>
 

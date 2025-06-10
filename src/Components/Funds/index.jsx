@@ -9,7 +9,7 @@ export default function FundAccountSection() {
       <h2 className="text-3xl md:text-4xl text-center mt-10 font-serif ">
         Fund your account in
       </h2>
-      <h3 className="text-2xl md:text-3xl font-serif text-[#4468E9] mt-2 text-center">
+      <h3 className="text-2xl md:text-3xl font-serif text-[#7C3AED] mt-2 text-center">
         5 minutes or less
       </h3>
 
@@ -28,7 +28,7 @@ export default function FundAccountSection() {
       {/* Image Section */}
       <div className="relative flex justify-center w-full mt-20">
         {/* Pedestal Effect */}
-        <div className="absolute bottom-[-30px] w-[50%] h-[60px] bg-blue-500 rounded-2xl blur-[50px] opacity-40"></div>
+        <div className="absolute bottom-[-30px] w-[50%] h-[60px]  rounded-2xl blur-[50px] opacity-40"></div>
 
         <div className="relative max-w-4xl w-full px-4 flex justify-center">
           <Image
