@@ -19,7 +19,7 @@ export const metadata = {
   title: "Where committed investors invest",
   description: "Built for investors who mean business",
   other: {
-    "backlink-exchange-verification": "8f39f82c-844c-49b5-8c01-68231830e5a6"
+    "backlinkexchange-verification": "8f39f82c-844c-49b5-8c01-68231830e5a6"
   }
 };
 
