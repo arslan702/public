@@ -18,9 +18,8 @@ const geistMono = localFont({
 export const metadata = {
   title: "Where committed investors invest",
   description: "Built for investors who mean business",
-  // "linkweave-verification": "d5ce81c532a6b3e2956a7362cc078995d8923dd917962eb55ee00a579d4035b5"
   other: {
-    "backlinkexchange-verification": "73daabf5-9c35-40d7-8067-a8d68e519956"
+    "backlink-exchange-verification": "8f39f82c-844c-49b5-8c01-68231830e5a6"
   }
 };
 
