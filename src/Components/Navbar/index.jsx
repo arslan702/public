@@ -14,10 +14,12 @@ export default function Navbar() {
   return (
     <nav className="flex items-center px-10 py-4 border-b border-gray-300 bg-white">
       {/* Logo */}
+      <Link href={"/"}>
       <div className="text-lg font-semibold text-black flex items-center space-x-1 mr-auto">
         <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
         <span>public</span>
       </div>
+      </Link>
       
       {/* Menu Items */}
       <ul className="flex space-x-8 text-sm font-medium text-gray-700 mr-6">
