@@ -10,6 +10,22 @@ const Footer = ({ menuItems }) => {
   return (
     <div className="bg-white text-black py-12 px-6 md:px-20">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-10 max-w-7xl mx-auto">
+        {/* Social & Branding */}
+        <div>
+          <Image src={logo} alt="PublicTrade Logo" width={120} height={36} />
+          <p className="text-xs text-gray-500 mt-4">
+            PublicTrade.net - Your trusted platform for modern investing
+          </p>
+          <p className="text-xs text-gray-500 mt-2">
+            Trade stocks, ETFs, and crypto all in one place
+          </p>
+          <p className="text-xs text-gray-500 mt-2">
+            Commission-free trading on US stocks and ETFs
+          </p>
+          <p className="text-xs text-gray-500 mt-2">
+            Member of FINRA and SIPC
+          </p>
+        </div>
         {menuItems.map((section, index) => (
           <div key={index}>
             <h3 className="font-semibold text-[14px] ">{section.title}</h3>
@@ -22,25 +38,6 @@ const Footer = ({ menuItems }) => {
             </ul>
           </div>
         ))}
-
-        {/* Social & Branding */}
-        {/* <div>
-          <Image src={logo} alt="Public Logo" width={100} height={30} />
-          <p className="text-xs text-gray-500 mt-2">
-            Check the background of this firm on{" "}
-            <a href="#" className="text-blue-500">FINRA’s BrokerCheck</a>.
-          </p>
-          <p className="text-xs text-blue-500 mt-2">
-            Open to the Public Investing, Inc. <br /> Customer Relationship Summary.
-          </p>
-          <div className="flex items-center gap-4 mt-4">
-            <RxCross2 className="text-xl text-gray-600 cursor-pointer" />
-            <FaInstagram className="text-xl text-gray-600 cursor-pointer" />
-            <FaFacebookF className="text-xl text-gray-600 cursor-pointer" />
-            <FaLinkedin className="text-xl text-gray-600 cursor-pointer" />
-            <FaTiktok className="text-xl text-gray-600 cursor-pointer" />
-          </div>
-        </div> */}
       </div>
     </div>
   );
@@ -80,21 +77,21 @@ export default function HomePage() {
       title: "Products",
       items: [
         "Stocks", "ETFs", "Crypto (Offered by Bakkt Crypto)", "Options", 
-        "Margin", "Bonds", "Treasuries", "High-Yield Cash Account", "Premium", "Alpha"
+        "High-Yield Cash Account", "Premium"
       ],
     },
     {
       title: "Resources",
-      items: ["About Us", "Learn", "Careers", "Public’s Fee Schedule"],
+      items: ["About Us"],
     },
-    {
-      title: "Quick Links",
-      items: [
-        "Investment Themes", "Investing Glossary", "Fixed Income Glossary", 
-        "Options Trading Glossary", "Transfer your Portfolio", 
-        "Treasury Yield Curve", "High Yield Savings Calculator"
-      ],
-    },
+    // {
+    //   title: "Quick Links",
+    //   items: [
+    //     "Investment Themes", "Investing Glossary", "Fixed Income Glossary", 
+    //     "Options Trading Glossary", "Transfer your Portfolio", 
+    //     "Treasury Yield Curve", "High Yield Savings Calculator"
+    //   ],
+    // },
     {
       title: "Contact Us",
       items: ["Help", "FAQ", "info@publictrade.net"],

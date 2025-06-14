@@ -23,9 +23,9 @@ export default function BondAccount() {
           Now, you can lock in a 7% yield that won’t change if the Fed cuts rates with a
           diversified portfolio of investment-grade and high-yield bonds.
         </p>
-        <button className="mt-4 px-4 py-2 border rounded-lg border-gray-400 text-gray-600 hover:bg-gray-200 transition">
+        {/* <button className="mt-4 px-4 py-2 border rounded-lg border-gray-400 text-gray-600 hover:bg-gray-200 transition">
           ⓘ Bond Account Disclosure
-        </button>
+        </button> */}
       </div>
       <div className="md:w-[55%] flex items-center justify-center mt-10 md:mt-0 ">
         <div className="  ">

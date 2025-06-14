@@ -21,9 +21,9 @@ export default function HighYieldCashAccount() {
         <p className="text-gray-600 max-w-sm text-[14px] ">
           Our High-Yield Cash Account offers an industry-leading 4.1% APY with no fees or balance requirements. Plus, you get up to $5M FDIC insurance.
         </p>
-        <button className="mt-4 px-4 py-2 border rounded-lg border-gray-200 text-[14px] text-gray-600 hover:bg-gray-200 transition">
+        {/* <button className="mt-4 px-4 py-2 border rounded-lg border-gray-200 text-[14px] text-gray-600 hover:bg-gray-200 transition">
           ⓘ High-Yield Cash Account Disclosure
-        </button>
+        </button> */}
       </div>
       <div className="md:w-[55%] flex items-center justify-center mt-10 md:mt-0 relative">
         <div className="relative w-full">

@@ -23,9 +23,9 @@ export default function OptionsTrading() {
         <p className="text-gray-600 max-w-md">
           Public is the only investing platform with options trading rebates. Earn $0.06–$0.18 per stock or ETF contract, based on your monthly trading volume.
         </p>
-        <button className="mt-4 px-4 py-2 border rounded-lg border-gray-400 text-gray-600 hover:bg-gray-200 transition">
+        {/* <button className="mt-4 px-4 py-2 border rounded-lg border-gray-400 text-gray-600 hover:bg-gray-200 transition">
           ⓘ Options Disclosures
-        </button>
+        </button> */}
         <div className="flex items-center bg-gray-100 p-4 rounded-lg shadow-md mt-4 md:w-[70%] ">
           <Image src={img1} alt="NerdWallet Logo" className="w-16 h-16 rounded-lg" />
           <p className="ml-4 text-gray-700 text-sm max-w-sm">
