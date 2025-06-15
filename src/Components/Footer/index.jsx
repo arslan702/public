@@ -4,9 +4,10 @@ import { FaInstagram, FaFacebookF, FaLinkedin, FaTiktok } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import logo from "../../Images/logo.svg"; // Ensure correct path
 import img from "../../Images/16.webp"; // Ensure correct path
+import Link from "next/link";
 
 // Footer Component
-const Footer = ({ menuItems }) => {
+const Footer = () => {
   return (
     <div className="bg-white text-black py-12 px-6 md:px-20">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-10 max-w-7xl mx-auto">
@@ -26,18 +27,37 @@ const Footer = ({ menuItems }) => {
             Member of FINRA and SIPC
           </p>
         </div>
-        {menuItems.map((section, index) => (
-          <div key={index}>
-            <h3 className="font-semibold text-[14px] ">{section.title}</h3>
-            <ul className="mt-2 space-y-2 text-gray-600 text-[12px] ">
-              {section.items.map((item, idx) => (
-                <li key={idx} className="hover:text-[#7c3aed] cursor-pointer">
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+
+        {/* Products Section */}
+        <div>
+          <h3 className="font-semibold text-[14px]">Products</h3>
+          <ul className="mt-2 space-y-2 text-gray-600 text-[12px]">
+            <li className="hover:text-[#7c3aed]">Stocks</li>
+            <li className="hover:text-[#7c3aed]">ETFs</li>
+            <li className="hover:text-[#7c3aed]">Crypto (Offered by Bakkt Crypto)</li>
+            <li className="hover:text-[#7c3aed]">Options</li>
+            <li className="hover:text-[#7c3aed]">High-Yield Cash Account</li>
+            <li className="hover:text-[#7c3aed]">Premium</li>
+          </ul>
+        </div>
+
+        {/* Resources Section */}
+        <div>
+          <h3 className="font-semibold text-[14px]">Resources</h3>
+          <ul className="mt-2 space-y-2 text-gray-600 text-[12px]">
+            <li className="hover:text-[#7c3aed]"><Link href={"/company"}>About Us</Link></li>
+          </ul>
+        </div>
+
+        {/* Contact Section */}
+        <div>
+          <h3 className="font-semibold text-[14px]">Contact Us</h3>
+          <ul className="mt-2 space-y-2 text-gray-600 text-[12px]">
+            <li className="hover:text-[#7c3aed]"><Link href={'/help'}>Help</Link></li>
+            <li className="hover:text-[#7c3aed]"><Link href={'/faq'}>FAQ</Link></li>
+            <li className="hover:text-[#7c3aed]">info@publictrade.net</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
@@ -71,36 +91,4 @@ const FundAccountSection = () => {
 };
 
 // Main Page Component
-export default function HomePage() {
-  const footerMenu = [
-    {
-      title: "Products",
-      items: [
-        "Stocks", "ETFs", "Crypto (Offered by Bakkt Crypto)", "Options", 
-        "High-Yield Cash Account", "Premium"
-      ],
-    },
-    {
-      title: "Resources",
-      items: ["About Us"],
-    },
-    // {
-    //   title: "Quick Links",
-    //   items: [
-    //     "Investment Themes", "Investing Glossary", "Fixed Income Glossary", 
-    //     "Options Trading Glossary", "Transfer your Portfolio", 
-    //     "Treasury Yield Curve", "High Yield Savings Calculator"
-    //   ],
-    // },
-    {
-      title: "Contact Us",
-      items: ["Help", "FAQ", "info@publictrade.net"],
-    },
-  ];
-
-  return (
-    <div>
-      <Footer menuItems={footerMenu} />
-    </div>
-  );
-}
+export default Footer;
