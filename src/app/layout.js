@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <title>Publictrade.net - Where committed investors invest</title>
-        <link rel="icon" type="image/jpeg" sizes="16x16" href="/logo.jpeg" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/logo.png" />
         {/* <link rel="icon" href="/favicon.ico" sizes="any" /> */}
       </Head>
       <body
